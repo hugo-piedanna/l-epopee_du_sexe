@@ -1,17 +1,16 @@
 const directions = {
-    right: "right",
-    left: "left"
+    right: 1,
+    left: -1
 }
 
 var animationInterval;
 var spriteSheet = document.getElementById("avatar");
-var widthOfSpriteSheet = 864;
+var widthOfSpriteSheet = 720;
 var widthOfEachSprite = 864/6;
 var myDirection = directions.right;
 var isPush = false;
 
-const SPEED = 1;
-var direction = 1;
+const SPEED = 10;
 var positionX = 0;
 
 function stopAnimation() {
@@ -25,18 +24,31 @@ function forward() {
   
     animationInterval = setInterval(() => {
       spriteSheet.style.backgroundPosition = `-${position}px 0px`;
-      var posX = spriteSheet.offsetLeft;
-      posX = posX + spriteSheet.offsetWidth;
-      spriteSheet.style.marginLeft = (posX + SPEED * direction) + 'px';
       if (position < widthOfSpriteSheet) {
         position = position + diff;
       } else {
         //increment the position by the width of each sprite each time
         position = widthOfEachSprite;
       }
+      avance()
       //reset the position to show first sprite after the last one
     }, speed);
   }
+
+function avance(){
+    positionX = positionX + (myDirection * SPEED)
+    spriteSheet.style.marginLeft = positionX + 'px';
+    changePage(positionX);
+}
+
+function changePage(positionX){
+    console.log(positionX)
+    if(positionX >= 1120){
+        alert("Droite");
+    }else if(positionX < 0){
+        alert("Gauche");
+    }
+}
 
 document.body.addEventListener('keyup', (e) => {
     stopAnimation();
@@ -52,7 +64,6 @@ document.body.addEventListener("keydown", (e) => {
             case "d":
                 if(myDirection != directions.right){
                     myDirection = directions.right;
-                    direction = 1;
                     spriteSheet.setAttribute("style", "transform: scaleX(1)");
                 }
                 
@@ -62,7 +73,6 @@ document.body.addEventListener("keydown", (e) => {
             case "q":
                 if(myDirection != directions.left){
                     myDirection = directions.left;
-                    direction = -1;
                     spriteSheet.setAttribute("style", "transform: scaleX(-1)");
                 }
                 
