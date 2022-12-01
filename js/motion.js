@@ -1,6 +1,6 @@
 const directions = {
-    right,
-    left
+    right: "right",
+    left: "left"
 }
 
 let myDirection = directions.right;
