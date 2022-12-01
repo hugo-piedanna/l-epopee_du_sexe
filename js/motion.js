@@ -7,7 +7,13 @@ var animationInterval;
 var spriteSheet = document.getElementById("avatar");
 var widthOfSpriteSheet = 1472;
 var widthOfEachSprite = 184;
-let myDirection = directions.right;
+var myDirection = directions.right;
+var isPush = false;
+
+
+function stopAnimation() {
+    clearInterval(animationInterval);
+}
 
 function forward() {
     var position = widthOfEachSprite; //start position for the image
@@ -27,26 +33,34 @@ function forward() {
     }, speed);
   }
 
-document.body.addEventListener("keydown", (e) => {
-    switch(e.key){
-        case "ArrowRight":
-        case "D":
-        case "d":
-            if(myDirection != directions.right){
-                myDirection = directions.right;
-            }
-            break;
-        case "ArrowLeft":
-        case "Q":
-        case "q":
-            if(myDirection != directions.left){
-                myDirection = directions.left;
-            }
-            break;
-        default:
-            return;
-    }
+document.body.addEventListener('keyup', (e) => {
+    stopAnimation();
+    isPush = false;
+});
 
-    forward();
+document.body.addEventListener("keydown", (e) => {
+    if(!isPush){
+        isPush = true;
+        switch(e.key){
+            case "ArrowRight":
+            case "D":
+            case "d":
+                if(myDirection != directions.right){
+                    myDirection = directions.right;
+                }
+                break;
+            case "ArrowLeft":
+            case "Q":
+            case "q":
+                if(myDirection != directions.left){
+                    myDirection = directions.left;
+                }
+                break;
+            default:
+                return;
+        }
+
+        forward();
+    }
 });
 

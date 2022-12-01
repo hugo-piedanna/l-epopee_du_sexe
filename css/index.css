@@ -1,5 +1,7 @@
 #avatar {
     height: 325px;
     width: 184px;
-    background: url("../images/persos/11/Walk.png") 0px 0px;
+    background: url("../images/persos/Homme/Walk.png") 0px 0px;
+    background-repeat: no-repeat;
+    border: solid 1px black;
   }
