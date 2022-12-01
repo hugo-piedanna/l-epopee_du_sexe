@@ -5,11 +5,14 @@ const directions = {
 
 var animationInterval;
 var spriteSheet = document.getElementById("avatar");
-var widthOfSpriteSheet = 1472;
-var widthOfEachSprite = 184;
+var widthOfSpriteSheet = 864;
+var widthOfEachSprite = 864/6;
 var myDirection = directions.right;
 var isPush = false;
 
+const SPEED = 1;
+var direction = 1;
+var positionX = 0;
 
 function stopAnimation() {
     clearInterval(animationInterval);
@@ -22,7 +25,9 @@ function forward() {
   
     animationInterval = setInterval(() => {
       spriteSheet.style.backgroundPosition = `-${position}px 0px`;
-  
+      var posX = spriteSheet.offsetLeft;
+      posX = posX + spriteSheet.offsetWidth;
+      spriteSheet.style.marginLeft = (posX + SPEED * direction) + 'px';
       if (position < widthOfSpriteSheet) {
         position = position + diff;
       } else {
@@ -47,14 +52,20 @@ document.body.addEventListener("keydown", (e) => {
             case "d":
                 if(myDirection != directions.right){
                     myDirection = directions.right;
+                    direction = 1;
+                    spriteSheet.setAttribute("style", "transform: scaleX(1)");
                 }
+                
                 break;
             case "ArrowLeft":
             case "Q":
             case "q":
                 if(myDirection != directions.left){
                     myDirection = directions.left;
+                    direction = -1;
+                    spriteSheet.setAttribute("style", "transform: scaleX(-1)");
                 }
+                
                 break;
             default:
                 return;

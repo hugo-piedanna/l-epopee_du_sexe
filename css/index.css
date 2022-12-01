@@ -1,7 +1,12 @@
 #avatar {
-    height: 325px;
-    width: 184px;
+    height: 144px;
+    width: 144px;
     background: url("../images/persos/Homme/Walk.png") 0px 0px;
     background-repeat: no-repeat;
     border: solid 1px black;
+    margin-left : 140px;
   }
+
+body {
+  display: absolute;
+}
