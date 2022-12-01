@@ -41,15 +41,6 @@ function avance(){
     changePage(positionX);
 }
 
-function changePage(positionX){
-    console.log(positionX)
-    if(positionX >= 1120){
-        alert("Droite");
-    }else if(positionX < 0){
-        alert("Gauche");
-    }
-}
-
 document.body.addEventListener('keyup', (e) => {
     stopAnimation();
     isPush = false;
