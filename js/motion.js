@@ -12,7 +12,7 @@ function forward(){
     console.log(x);
 }
 
-body.addEventListener("keydown", (e) => {
+document.body.addEventListener("keydown", (e) => {
     forward();
 });
 
