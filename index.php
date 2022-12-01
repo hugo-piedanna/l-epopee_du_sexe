@@ -8,6 +8,10 @@
 </head>
 <body>
     <h1>Hello World !</h1>
+<<<<<<< HEAD
     <p>Nuit de l'info</p>
+=======
+    
+>>>>>>> 8ebf485bb4d3d295e0a49bf43460d537abed7560
 </body>
 </html>
