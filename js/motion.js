@@ -38,7 +38,6 @@ function forward() {
 function avance(){
     positionX = positionX + (myDirection * SPEED)
     spriteSheet.style.marginLeft = positionX + 'px';
-    changePage(positionX);
 }
 
 document.body.addEventListener('keyup', (e) => {
