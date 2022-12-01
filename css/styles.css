@@ -1,57 +1,55 @@
-img:hover[src*="/images/btn/btnFalseHomme"] {
-    background-image: url("/images/btn/btnActifHomme");
-    width: 20rem;
-    height: 10rem;
-    padding: 10rem 0 0 0;
-}
-
-#homme:hover {
-    background-image: url("/images/btn/btnActifHomme");
-    height: 100px;
-}
-
-
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
+div {
+  src: url(../images/btn/btnFalseHomme.png);
+}
+div:hover {
+  src: url(../images/btn/btnActifHomme.png);
+}
 
 /* Global */
 html{
-  min-height: 100%;
+  max-height: 100%;
 }
 body{
+  font-family: 'Press Start 2P', cursive;
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  font-family: 'Press Start 2P', cursive; 
   background-image: linear-gradient(rgba(144, 144, 144, 0.75), rgba(49, 49, 49, 0.75)),
   url("../images/background/fondPixelAppartement.png");
   background-size: cover;
   background-repeat: no-repeat;
-
+  overflow: hidden;
+}
+h1{
+    position: relative;
+    top: 20%;  
+    width: 75%;
+    margin: 0 auto;
+    font-size: 50px;
+    text-align: center;
 }
 .line-1{
     position: relative;
-    top: 50%;  
-    width: 10em;
+    top: 10%;
+    width: 75%;
     margin: 0 auto;
-    border-right: 2px solid rgba(255,255,255,.75);
-    font-size: 180%;
+    font-size: 50px;
     text-align: center;
-    white-space: nowrap;
-    overflow: hidden;
-    transform: translateY(-50%); 
-    border: 1px black solid;   
+
+}
+@keyframes fadeIn {
+  to{
+      opacity: 1;
+  }
 }
 
-/* Animation */
-.anim-typewriter{
-  animation: typewriter 2s steps(44) 1s 1 normal both,
-             blinkTextCursor 500ms steps(44) infinite normal;
+.fade-in{
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
 }
-@keyframes typewriter{
-  from{width: 0;}
-  to{width: 50em;}
-}
+
 @keyframes blinkTextCursor{
   from{border-right-color: rgba(255,255,255,.75);}
   to{border-right-color: transparent;}
