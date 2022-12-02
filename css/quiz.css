@@ -12,26 +12,75 @@ body{
     display: none;
     grid-template-columns: auto auto;
     padding: 10px;
+    color: bisque;
   }
   .grid-item {
     border: 10px solid rgba(12, 13, 29, 0.8);
     background-color: rgb(79, 79, 156);
+    color: bisque;
     padding: 15px;
     font-size: 30px;
     text-align: center;
     margin: 20px;
     border-radius: 50px;
   }
+  #question{
+    color: bisque;
+    margin: 0 auto;
+    margin-top: 7.5%;
+    text-align: center;
+    margin-bottom: 5%;
+    width: 80%;
+  }
 
   .grid-item:hover{
     background-color: rgba(12, 13, 29, 0.8);
     border: 10px solid rgb(79, 79, 156);
+    color: rgb(200, 200, 200);
   }
-
+  #response{
+    color: bisque;
+    margin: 0 auto;
+    margin-top: 5%;
+    text-underline-offset: 15px;
+    font-size: 24px;
+    width: 85%;
+    padding: 40px;
+    border-radius: 50px;
+    border: 10px solid black;
+    line-height: 50px;
+  }
+  #btn-response{
+    border: 10px solid rgba(12, 13, 29, 0.8);
+    background-color: rgb(79, 79, 156);
+    color: bisque;
+    padding: 30px;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    margin-top: 50px;
+    border-radius: 50px;
+    width: fit-content;
+  }
   #btn-response:hover{
-    background-color: aqua;
+    background-color: rgba(12, 13, 29, 0.8);
+    border: 10px solid rgb(79, 79, 156);
+    color: rgb(200, 200, 200);
   }
 
   #btn-result:hover{
     background-color: aqua;
+  }
+  #result-container{
+    background-color: bisque;
+    border: black 10px solid;
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  #title-result{
+    font-size: 75px;
+  }
+  #result{
+    font-size: 40px;
   }
