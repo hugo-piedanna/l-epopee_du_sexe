@@ -38,6 +38,7 @@ function forward() {
 function avance(){
     positionX = positionX + (myDirection * SPEED);
     spriteSheet.style.marginLeft = positionX + 'px';
+    openFen(spriteSheet.offsetLeft);
 }
 
 document.body.addEventListener('keyup', (e) => {
