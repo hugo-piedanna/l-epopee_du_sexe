@@ -36,12 +36,22 @@ document.getElementById("response-container").addEventListener('click', function
     }
 })
 
+
+document.getElementById("finish").addEventListener("click", function(){
+    window.open('./fin.html');
+})
+
 function loadResult(){
     document.getElementById("question").style.display = "none";
     document.getElementById("response-container").style.display = "none"
     document.getElementById("result-container").style.display = "block";
     document.getElementById("title-result").innerHTML = points > nbQuest/2 ? "Bravo !" : "Insuffisant";
     document.getElementById("result").innerHTML = points + "/" + nbQuest;
+    if(urlParams.get('id') == 5){
+        document.getElementById("finish").style.display = "block";
+    }else{
+        document.getElementById("finish").style.display = "none";
+    }
 }
 
 function loadQuestion(){

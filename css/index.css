@@ -4,7 +4,7 @@
     background: url("../images/persos/Homme/Walk.png") 0px 0px;
     background-repeat: no-repeat;
     margin-left : 140px;
-    margin-top : 280px;
+    margin-top : 17.5em;
   }
 
 body {
@@ -12,22 +12,3 @@ body {
   overflow-y: hidden;
   overflow-x: auto;
 }
-
-.pnj{
-  margin-top : -160px;
-}
-#pnj0{
-  margin-left: 2350px;
-  margin-top : -160px;
-}
-
-#pnj1{
-  margin-left: 6500px;
-  margin-top : -220px;
-  margin-bottom : 80px;
-}
-/* #containerAvatar {
-  margin-right : 200px;
-  margin-left: 200px;
-  justify-content: center;
-} */
