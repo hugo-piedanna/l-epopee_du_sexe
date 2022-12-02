@@ -508,7 +508,8 @@
                         "etat": "Faux",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "Bien que de nombreuses associations et plusieurs dispositifs existent, l'état aussi participe à cet effort; notamment via le site solidarites-sante.gouv.fr"
             }
         ]
     }
