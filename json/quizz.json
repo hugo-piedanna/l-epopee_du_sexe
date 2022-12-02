@@ -306,15 +306,15 @@
                     
                     {
                         "etat": "Vrai",
-                        "label": "Que tout les parties soient d’accord"
+                        "label": "Que tous les partis soient d’accord"
                     },
                     {
                         "etat": "Faux",
-                        "label": "Au moins l’un des parties soient d’accord"
+                        "label": "Au moins l’un des parties soit d’accord"
                     }
                 
                 ],
-                "description" : ""
+                "description" : "C’est le principe de base du consentement. Une expression claire des envies de chacun et révocable à tout moment. "
             },
             {
                 "question": "Pour que le consentement soit approuvé il faut formuler un contrat",
@@ -328,7 +328,8 @@
                         "label": "Faux"
                     }
                 
-                ]
+                ],
+                "description" : "Il ne faut pas remplir de contrat, mais il ne doit pour autant n’y avoir aucun malentendu lors de ces échanges, même pour ce qui peut sembler évident. Chacun à sa propre sensibilité sur ces points."
             },
             {
                 "question": "Le chantage est une bonne alternative au consentement",
@@ -341,7 +342,8 @@
                         "etat": "Vrai",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "La seule expression claire du consentement est “oui”, toute autre réponse laissant place au doute ou libre à interprétation doit être prise comme un non. Il est bien plus préférable de prendre une réponse positive comme négative plutôt que l’inverse."
             },
             {
                 "question": "La majorité sexuelle est à 14 ans",
@@ -354,7 +356,8 @@
                         "etat": "Faux",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "Obtenir un oui d’une manière malhonnête, en exerçant une pression sur la personne ou en altérant ses capacités de réflexions est non recevable, et doit être interprété comme un non."
             }
         ]
     },
@@ -384,7 +387,7 @@
                     }
                 
                 ],
-                "description" : ""
+                "description" : "Alternative méconnue du fait de son accessibilité réduite et de son prix plus élevé, le préservatif féminin présente tout de même un avantage majeur : il peut être placé plusieurs heures avec un potentiel rapport, et donc être plus serein."
             },
             {
                 "question": "Le préservatif est apparue en",
