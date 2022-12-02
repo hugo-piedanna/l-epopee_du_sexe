@@ -408,7 +408,8 @@
                         "etat": "Faux",
                         "label": "1983"
                     }
-                ]
+                ],
+                "description" : "Des étoffes en lin aurait été utilisées à cette époque afin de se prévenir des maladies. Bien loin de nos préservatifs modernes !"
             },
             {
                 "question": "Les préservatif sont remboursé à hauteur de",
@@ -429,7 +430,8 @@
                         "etat": "Faux",
                         "label": "40 %"
                     }
-                ]
+                ],
+                "description" : "Les préservatifs peuvent être en partie remboursés, mais uniquement sur ordonnance médicale; il faut donc passer devant un médecin au préalable. "
             },
             {
                 "question": "Le lubrifiant par défaut est généralement suffisant",
@@ -442,7 +444,8 @@
                         "etat": "Vrai",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "Il peut être suffisant, certains préservatifs étant plus lubrifiés que d’autres. Cependant, il n’est jamais de trop d’en utiliser davantage afin d’éviter des inconforts et des gênes pendant le rapport."
             }
         ]
     },
