@@ -12,10 +12,10 @@ const header = document.querySelector('.header');
 
 window.onscroll = function(){
     var top = window.scrollY;
-    console.log(top);
     if (top >= 50){
         Headers.classList.add('active')
     }else{
+        if(Headers.classList == null) return;
         Headers.classList.remove('active');
     }
 }
