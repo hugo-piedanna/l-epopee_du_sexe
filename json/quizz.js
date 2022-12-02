@@ -59,7 +59,7 @@ data = [
                     },
                     {
                         "etat": "Vrai",
-                        "label": "Vrai"
+                        "label": "Faux"
                     }
                 ],
                 "description": "C’est une idée reçue ! En effet, bien que les moustiques puissent transmettre un bon nombre de maladies, le VIH n’en fait pas partie."
