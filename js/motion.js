@@ -10,8 +10,8 @@ var widthOfEachSprite = 1728/6;
 var myDirection = directions.right;
 var isPush = false;
 
-const SPEED = 22;
-var positionX = 0;
+const SPEED = 45;
+var positionX = spriteSheet.offsetLeft;
 
 function stopAnimation() {
     clearInterval(animationInterval);
@@ -55,6 +55,7 @@ document.body.addEventListener("keydown", (e) => {
                 if(myDirection != directions.right){
                     myDirection = directions.right;
                     spriteSheet.setAttribute("style", "transform: scaleX(1)");   
+                    spriteSheet.style.marginLeft = positionX + 'px';
                 }
                 break;
             case "ArrowLeft":
@@ -63,11 +64,13 @@ document.body.addEventListener("keydown", (e) => {
                 if(myDirection != directions.left){
                     myDirection = directions.left;
                     spriteSheet.setAttribute("style", "transform: scaleX(-1)");
+                    spriteSheet.style.marginLeft = positionX + 'px';
                 }
                 break;
             default:
                 return;
         }
+        
 
         forward();
     }

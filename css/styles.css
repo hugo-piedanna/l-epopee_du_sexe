@@ -16,7 +16,7 @@ body{
   height: calc(100vh - 8em);
   padding: 4em;
   color: rgba(255,255,255,.75);
-  background-image: url("../images/background/fondPixelAppartement.png");
+  background-image: url("../images/background/bgPanorama.png");
   background-size: cover;
   background-repeat: no-repeat;
   /* overflow: hidden; */
