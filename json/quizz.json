@@ -1,0 +1,506 @@
+[
+    {
+        "id": 1,
+        "title": "Sida",
+        "questions" : [
+            {
+                "question": "A partir de quelle durée un test au VIH est-il fiable ?",
+                "reponses": [
+                    
+                    {
+                        "etat": "Faux",
+                        "label": "3 jours"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "1 semaine"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "4 semaines"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "6 semaines"
+                    }
+                
+                ],
+                "description" : "Le test par prise de sang nécessite un délai de 6 semaines afin d’être fiable. Il est à noter que les autotests disponibles en pharmacie nécessitent eux 12 semaines pour une fiabilité optimale."
+            },
+            {
+                "question": "Combien de personnes ont découvert leur séropositivité en 2021 ?",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "1 000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "2 500"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "5 000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "10 000"
+                    }
+                
+                ],
+                "description": "Le chiffre est relativement stable malgré une petite hausse par rapport à 2020, il est fort probable que cela soit surtout à la hausse du nombre de tests effectués d’une année à l’autre."
+            },
+            {
+                "question": "Le SIDA se transmet par les moustiques",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    }
+                ],
+                "description": "C’est une idée reçue ! En effet, bien que les moustiques puissent transmettre un bon nombre de maladies, le VIH n’en fait pas partie."
+            },
+            {
+                "question": "Avec un traitement, quel est le taux de transmission du VIH de la mère à l’enfant ?",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "0.5 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "2.5 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "5 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "10 %"
+                    }
+                ],
+                "description": "Sans traitement, ce chiffre tourne autour des 15~20%.  Il est donc tout à fait possible de faire un enfant en étant atteint du VIH, en s’y prenant à l’avance et en suivant un traitement adapté."
+            },
+            {
+                "question": "En 2020, à combien estime-t-on le nombre de décès liés au SIDA dans le monde ?",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "150 000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "400 000"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "650 000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "1 000 000"
+                    }
+                ],
+                "description": "Ce chiffre est assez faible en France, 144 en 2020, car nous avons la chance d’avoir un accès très facilité aux différents médicaments comme la trithérapie. Ce n’est pas le cas pour une majorité de pays, qui font souvent face en plus à une difficulté d’accès à la contraception."
+            }
+        ]
+
+    },
+    {
+        "id": 2,
+        "title": "Hépatite",
+        "questions" : [
+            {
+                "question": "Combien y-a-t-il de type d’hépatite ?",
+                "reponses": [
+                    
+                    {
+                        "etat": "Faux",
+                        "label": "1"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "3"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "5"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "7"
+                    }
+                
+                ],
+                "description" : "A,B,C,D,E,F,G. L’hépatite B est la plus connue du grand public, car elle fait partie des hépatites transmissibles sexuellement, mais bien d’autres formes existent."
+            },
+            {
+                "question": "A partir de quelle durée un test au VIH est-il fiable ?",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "1 semaine"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "1 mois"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "3 mois"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "6 mois"
+                    }
+                
+                ],
+                "description": "La sérologie peut être négative jusqu’a 3 mois après une situation à risque, il faut donc attendre ce délai avant de se faire tester. C’est la raison pour laquelle le don du sang nécessite aucun nouveau partenaire sur les 3 derniers mois."
+            },
+            {
+                "question": "Quel organe touche l’hépatite ?",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "Foie"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Coeur"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Cerveau"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Poumons"
+                    }
+                ],
+                "description": "Les hépatites regroupent un certain nombre d’inflammation du foie par un virus. La variété du virus va définir le type d’hépatite, ainsi que son mode de transmission qui peut varier."
+            },
+            {
+                "question": "Tous les types d’hépatites sont transmissibles sexuellement",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                ],
+                "description": "L’hépatite B est la seule réellement transmissible via les fluides corporelles, mais certaines pratiques sexuelles peuvent exposer à d’autres hépatites tel que la A ou la C."
+            },
+            {
+                "question": "Le vaccin contre l’hépatites B est efficace",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Faux"
+                    }
+                ],
+                "description": "Le vaccin contre l’hépatite B est efficace à 95%, probablement pour la vie. C’est pour cette raison que le vaccin est devenu obligatoire en 2018 pour les nourissons, tranche d’âge où il est d’autant plus efficace."
+            }
+        ]
+
+    },
+    {
+        "id": 3,
+        "title": "Papillomavirus",
+        "questions" : [
+            {
+                "question": "Le risque d’attraper le papillomavirus est très faible",
+                "reponses": [
+                    
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                
+                ],
+                "description" : "On estime que 70 à 80% de la population sexuellement active risque de se retrouver en contact avec ce virus."
+            },
+            {
+                "question": "Le vaccin contre le papillomavirus est remboursé par la sécu à",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "10 %"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "65 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "40 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "100 %"
+                    }
+                
+                ],
+                "description": "Idéalement, la vaccination doit avoir lieu avant le début de la vie sexuelle de l’individu. La campagne de vaccination a longtemps ciblé uniquement les femmes, mais elle commence peu à peu à s’étendre aux hommes, étant eux aussi vecteurs."
+            },
+            {
+                "question": "Avoir des lésions de papillomavirus implique un cancer",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                ],
+                "description": ""
+            },
+            {
+                "question": "Quelles sont les conséquences d’une conisation ?",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Rend stérile"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Peu de douleurs"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Un arrêt de travaille prolongé"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Plus aucune chance de récidive"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Consentement",
+        "questions" : [
+            {
+                "question": "Pour qu’il y ait consentement il faut:",
+                "reponses": [
+                    
+                    {
+                        "etat": "Vrai",
+                        "label": "Que tout les parties soient d’accord"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Au moins l’un des parties soient d’accord"
+                    }
+                
+                ],
+                "description" : ""
+            },
+            {
+                "question": "Pour que le consentement soit approuvé il faut formuler un contrat",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                
+                ]
+            },
+            {
+                "question": "Le chantage est une bonne alternative au consentement",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                ]
+            },
+            {
+                "question": "La majorité sexuelle est à 14 ans",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Faux"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Protection",
+        "questions" : [
+            {
+                "question": "Le préservatif féminin se place dans le vagin avant le rapport",
+                "reponses": [
+                    
+                    {
+                        "etat": "Faux",
+                        "label": "Juste avant"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Plusieurs heures avant"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Un peu après"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Quand on veut, il est réutilisable"
+                    }
+                
+                ],
+                "description" : ""
+            },
+            {
+                "question": "Le préservatif est apparue en",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "2022"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "~ -3000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "2000"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "1983"
+                    }
+                ]
+            },
+            {
+                "question": "Les préservatif sont remboursé à hauteur de",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "60 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "65 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "100 %"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "40 %"
+                    }
+                ]
+            },
+            {
+                "question": "Le lubrifiant par défaut est généralement suffisant",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Se renseigner",
+        "questions" : [
+            {
+                "question": "L’association Sida Info Service dispose d’une ligne téléphonique gratuite",
+                "reponses": [
+                    
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Faux"
+                    }
+                
+                ],
+                "description" : ""
+            },
+            {
+                "question": "La ligne azur est une plage en bord de méditerranée",
+                "reponses": [
+                    {
+                        "etat": "Faux",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Vrai",
+                        "label": "Faux"
+                    }
+                ]
+            },
+            {
+                "question": "Les mineurs peuvent disposer d’un suivi gratuit et sans autorisation parentale auprès des centres de santé sexuelles",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Faux"
+                    }
+                ]
+            },
+            {
+                "question": "Le gouvernement met à disposition des ressources sur la santé sexuelle",
+                "reponses": [
+                    {
+                        "etat": "Vrai",
+                        "label": "Vrai"
+                    },
+                    {
+                        "etat": "Faux",
+                        "label": "Faux"
+                    }
+                ]
+            }
+        ]
+    }
+]
