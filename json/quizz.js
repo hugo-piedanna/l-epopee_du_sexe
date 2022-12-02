@@ -48,7 +48,7 @@ data = [
                     }
                 
                 ],
-                "description": "Le chiffre est relativement stable malgré une petite hausse par rapport à 2020, il est fort probable que cela soit surtout à la hausse du nombre de tests effectués d’une année à l’autre."
+                "description": "Le chiffre est relativement stable malgré une petite hausse par rapport à 2020, il est fort probable que cela soit surtout dû à la hausse du nombre de tests effectués d’une année à l’autre."
             },
             {
                 "question": "Le SIDA se transmet par les moustiques",
