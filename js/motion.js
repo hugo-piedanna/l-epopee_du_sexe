@@ -37,6 +37,12 @@ function forward() {
 
 function avance(){
     positionX = positionX + (myDirection * SPEED);
+    if(positionX <= 0){
+        positionX = 10;
+    }
+    if(positionX >= 11400){ 
+        positionX = 11300;
+    }
     spriteSheet.style.marginLeft = positionX + 'px';
     openFen(spriteSheet.offsetLeft);
 }
