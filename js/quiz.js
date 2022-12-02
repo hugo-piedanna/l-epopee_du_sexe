@@ -37,6 +37,7 @@ document.getElementById("response-container").addEventListener('click', function
 })
 
 function loadResult(){
+    document.getElementById("question").style.display = "none";
     document.getElementById("response-container").style.display = "none"
     document.getElementById("result-container").style.display = "block";
     document.getElementById("title-result").innerHTML = points > nbQuest/2 ? "Bravo !" : "Insuffisant";
