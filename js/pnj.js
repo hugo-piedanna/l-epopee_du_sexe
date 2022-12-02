@@ -1,4 +1,4 @@
-var posPnj = [500];
+var posPnj = [1400,2150,3300,5500,7425,9900];
 var pnjDone = [];
 
 function openFen(x){
