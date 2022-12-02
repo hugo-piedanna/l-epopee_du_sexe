@@ -13,9 +13,18 @@ body {
   overflow-x: auto;
 }
 
-#pnj0{
-  margin-left: 500px;
+.pnj{
   margin-top : -160px;
+}
+#pnj0{
+  margin-left: 2350px;
+  margin-top : -160px;
+}
+
+#pnj1{
+  margin-left: 4500px;
+  margin-top : -220px;
+  margin-bottom : 80px;
 }
 /* #containerAvatar {
   margin-right : 200px;

@@ -10,7 +10,7 @@ var widthOfEachSprite = 1728/6;
 var myDirection = directions.right;
 var isPush = false;
 
-const SPEED = 45;
+const SPEED = 60;
 var positionX = spriteSheet.offsetLeft;
 
 function stopAnimation() {
@@ -38,7 +38,7 @@ function forward() {
 function avance(){
     positionX = positionX + (myDirection * SPEED);
     spriteSheet.style.marginLeft = positionX + 'px';
-    openFen(spriteSheet.offsetLeft);
+    // openFen(spriteSheet.offsetLeft);
 }
 
 document.body.addEventListener('keyup', (e) => {
