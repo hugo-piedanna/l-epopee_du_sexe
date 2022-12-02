@@ -5,12 +5,12 @@ const directions = {
 
 var animationInterval;
 var spriteSheet = document.getElementById("avatar");
-var widthOfSpriteSheet = 720;
-var widthOfEachSprite = 864/6;
+var widthOfSpriteSheet = 1440;
+var widthOfEachSprite = 1728/6;
 var myDirection = directions.right;
 var isPush = false;
 
-const SPEED = 10;
+const SPEED = 17;
 var positionX = 0;
 
 function stopAnimation() {
