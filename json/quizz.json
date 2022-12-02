@@ -270,7 +270,7 @@
                         "label": "Faux"
                     }
                 ],
-                "description": ""
+                "description": "Des condylomes externes ou verrues génitales ne présentent aucun danger; ils entraînent au pire des cas des démangeaisons. On les fait enlever principalement pour des raisons esthétiques."
             },
             {
                 "question": "Quelles sont les conséquences d’une conisation ?",
@@ -291,7 +291,8 @@
                         "etat": "Faux",
                         "label": "Plus aucune chance de récidive"
                     }
-                ]
+                ],
+                "description" : "La conisation est une pratique qui a 2 but. Le premier qui est d’étudier le type de lésion présent dans le col utérin. Le deuxième est thérapeutique, car elle peut suffir à retirer complètement les lésions et ainsi prévenir des risques de cancer"
             }
         ]
     },
