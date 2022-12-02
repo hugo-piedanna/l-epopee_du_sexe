@@ -1,11 +1,29 @@
 #avatar {
-    height: 144px;
-    width: 144px;
+    height: 288px;
+    width: 288px;
     background: url("../images/persos/Homme/Walk.png") 0px 0px;
     background-repeat: no-repeat;
     margin-left : 140px;
+    margin-top : 340px;
+  }
+
+  #pnj1{
+    height: 288px;
+    width: 288px;
+    background: url("../images/persos/Homme/Idle.png") 0px 0px;
+    background-repeat: no-repeat;
+    margin-left : 140px;
+    margin-top : 340px;
   }
 
 body {
   display: absolute;
+  overflow-y: hidden;
+  overflow-x: auto;
 }
+
+/* #containerAvatar {
+  margin-right : 200px;
+  margin-left: 200px;
+  justify-content: center;
+} */
