@@ -75,5 +75,17 @@ p{
     text-align: center;
 
 }
+#fin{
+    
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+    height: fit-content;
+    background-image: url("../images/background/fondPixelPontStpierre.png");
+}
+#fin h1{
+  margin-top: 5%;
+  
+}
 
 
