@@ -467,7 +467,7 @@
                     }
                 
                 ],
-                "description" : ""
+                "description" : "0 800 840 800, voilà le numéro à composer pour entrer en contact avec Sida Info Service, 24h/24, 7j/7. Ce numéro est gratuit et permet d’échanger avec  leurs équipes, que ce soit pour des questions ou du soutien."
             },
             {
                 "question": "La ligne azur est une plage en bord de méditerranée",
@@ -480,7 +480,8 @@
                         "etat": "Vrai",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "Malheureusement non ! La ligne azur est un dispositif d’information et de soutien contre l’homophobie et pour la prévention du comportement suicidaire joignable 7j/7 de 9h à 23h par téléphone."
             },
             {
                 "question": "Les mineurs peuvent disposer d’un suivi gratuit et sans autorisation parentale auprès des centres de santé sexuelles",
@@ -493,7 +494,8 @@
                         "etat": "Faux",
                         "label": "Faux"
                     }
-                ]
+                ],
+                "description" : "Ils peuvent aussi avoir accès a des moyens de contraception et des conseils par des professionnels de santé. Si vous êtes mineurs, il est toujours intéressant de vous rapprocher de vos maisons de santé sexuelle afin de vous renseigner sur leurs missions."
             },
             {
                 "question": "Le gouvernement met à disposition des ressources sur la santé sexuelle",
