@@ -10,7 +10,7 @@ var widthOfEachSprite = 1728/6;
 var myDirection = directions.right;
 var isPush = false;
 
-const SPEED = 17;
+const SPEED = 22;
 var positionX = 0;
 
 function stopAnimation() {
@@ -30,13 +30,13 @@ function forward() {
         //increment the position by the width of each sprite each time
         position = widthOfEachSprite;
       }
-      avance()
+      avance();
       //reset the position to show first sprite after the last one
     }, speed);
   }
 
 function avance(){
-    positionX = positionX + (myDirection * SPEED)
+    positionX = positionX + (myDirection * SPEED);
     spriteSheet.style.marginLeft = positionX + 'px';
 }
 
@@ -54,9 +54,8 @@ document.body.addEventListener("keydown", (e) => {
             case "d":
                 if(myDirection != directions.right){
                     myDirection = directions.right;
-                    spriteSheet.setAttribute("style", "transform: scaleX(1)");
+                    spriteSheet.setAttribute("style", "transform: scaleX(1)");   
                 }
-                
                 break;
             case "ArrowLeft":
             case "Q":
@@ -65,7 +64,6 @@ document.body.addEventListener("keydown", (e) => {
                     myDirection = directions.left;
                     spriteSheet.setAttribute("style", "transform: scaleX(-1)");
                 }
-                
                 break;
             default:
                 return;
