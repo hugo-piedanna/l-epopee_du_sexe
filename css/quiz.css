@@ -1,22 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
 body{
     background-color: blue;
+    font-family: 'Press Start 2P', cursive;
+    background-image: url('../images/background/BGQuiiz.png');
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 #grid-container {
     display: none;
     grid-template-columns: auto auto;
-    background-color: #2196F3;
     padding: 10px;
   }
   .grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 20px;
+    border: 10px solid rgba(12, 13, 29, 0.8);
+    background-color: rgb(79, 79, 156);
+    padding: 15px;
     font-size: 30px;
     text-align: center;
+    margin: 20px;
+    border-radius: 50px;
   }
 
   .grid-item:hover{
-    background-color: pink;
+    background-color: rgba(12, 13, 29, 0.8);
+    border: 10px solid rgb(79, 79, 156);
   }
 
   #btn-response:hover{
